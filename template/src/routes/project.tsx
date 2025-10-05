@@ -2,17 +2,42 @@
 import { motion } from "framer-motion";
 export default function ProjectsSection() {
   const projects = [
-    { id: 1, title: 'Project1', description: 'description1', image: '/codeLogo.png', link: 'https://www.instagram.com/umasscodecollab/' },
-    { id: 2, title: 'Project2', description: 'description2', image: '/codeLogo.png', link: 'https://www.instagram.com/umasscodecollab/' },
-    { id: 3, title: 'Project3', description: 'description3', image: '/codeLogo.png', link: 'https://www.instagram.com/umasscodecollab/' },
-    { id: 4, title: 'Project4', description: 'description4', image: '/codeLogo.png', link: 'https://www.instagram.com/umasscodecollab/' },
+    {
+      id: 1,
+      title: "Project1",
+      description: "description1",
+      image: "/codeLogo.png",
+      link: "https://www.instagram.com/umasscodecollab/",
+    },
+    {
+      id: 2,
+      title: "Project2",
+      description: "description2",
+      image: "/codeLogo.png",
+      link: "https://www.instagram.com/umasscodecollab/",
+    },
+    {
+      id: 3,
+      title: "Project3",
+      description: "description3",
+      image: "/codeLogo.png",
+      link: "https://www.instagram.com/umasscodecollab/",
+    },
+    {
+      id: 4,
+      title: "Project4",
+      description: "description4",
+      image: "/codeLogo.png",
+      link: "https://www.instagram.com/umasscodecollab/",
+    },
   ];
+
   return (
     <div
       id="projects"
       className="bg-transparent min-h-screen py-12 px-4 sm:px-6 lg:px-8"
     >
-      <h2 className="text-5xl font-semibold text-center mb-12 mt-8">
+      <h2 className="text-3xl sm:text-4xl font-bold text-center mx-auto mb-12 text-[#2d2d2d]">
         Personal Projects
       </h2>
       <div className="space-y-12 gap-8 max-w-4xl mx-auto">
